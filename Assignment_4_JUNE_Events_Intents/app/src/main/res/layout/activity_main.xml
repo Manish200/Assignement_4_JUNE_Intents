@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.dell.assignment_4_june_events_intents.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textColor="#F5F5F5"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#F5F5F5"
+                android:layout_marginRight="19dp"
+                android:textStyle="italic"
+                android:text=" Mail ID"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="9dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="20dp"
+                android:id="@+id/mail"
+                android:backgroundTint="#FFF"
+                android:textSize="25dp"
+                android:inputType="textEmailAddress"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#F5F5F5"
+                android:layout_marginRight="19dp"
+                android:textStyle="italic"
+                android:text=" PASSWORD "
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="19dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:id="@+id/pass"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#FFF"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:inputType="textPassword"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="log in"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:background="#FF1744"
+                android:textStyle="bold"
+                android:id="@+id/login"
+                android:layout_marginRight="25dp"
+                android:textColor="#FFF"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Don't Have Account yet"
+                android:textColor="#FFF"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:background="#FF1744"
+                android:textStyle="bold"
+                android:layout_marginRight="25dp"
+                android:textColor="#FFF"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="9dp"
+                android:id="@+id/signup"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
